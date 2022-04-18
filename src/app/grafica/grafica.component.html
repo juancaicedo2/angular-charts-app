@@ -1,0 +1,28 @@
+<hr>
+<div>
+    <nav>Factores Criticos</nav>
+</div>
+<div class="chart-wrapper">
+    <canvas baseChart
+    [datasets]="radarChartData"
+    [options]="radarChartOptions"
+    [labels]="radarChartLabels"
+    [chartType]="radarChartType"
+    >
+    
+  </canvas>
+</div>
+<hr>
+<div>
+    <nav>Brecha del Area</nav>
+</div>
+<div class="chart-wrapper">
+    <canvas baseChart 
+    [data]="pieChartData" 
+    [labels]="pieChartLabels" 
+    [chartType]="pieChartType"
+    [options]="pieChartOptions"
+    [plugins]="pieChartPlugins"
+    [legend]="pieChartLegend">
+  </canvas>
+</div>

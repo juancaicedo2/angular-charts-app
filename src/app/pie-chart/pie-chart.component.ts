@@ -13,8 +13,8 @@ export class PieChartComponent {
   public pieChartOptions: ChartOptions = {
     responsive: true,
   };
-  public pieChartLabels: Label[] = [['SciFi'], ['Drama'], 'Comedy'];
-  public pieChartData: SingleDataSet = [30, 50, 20];
+  public pieChartLabels: Label[] = [['Planificacion'], ['Organizacion'], ['Direccion'],['Coordinacion'],['Control']];
+  public pieChartData: SingleDataSet = [20, 20, 20,25,15];
   public pieChartType: ChartType = 'pie';
   public pieChartLegend = true;
   public pieChartPlugins = [];
